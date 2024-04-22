@@ -1,0 +1,113 @@
+.features {
+  display: grid;
+  align-items: center;
+  margin: 0 80px;
+
+  &-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+  &-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+  &-item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+  &-item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+  &-item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+  &-item6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 150px;
+    overflow: hidden;
+  }
+}
+
+.features-text {
+  text-align: center;
+}
+
+.features-img {
+  margin: 15px;
+}
+
+.features {
+  @media (min-width: 600px) and (max-width: 850px) {
+    grid-template-columns: 50% 50%;
+    &-item1 {
+      border-right: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
+    &-item3 {
+      border-right: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
+    &-item5 {
+      border-right: 1px solid grey;
+      border-bottom: none;
+    }
+    &-item6 {
+      border-bottom: none;
+    }
+  }
+}
+
+.features {
+  @media (min-width: 850px) {
+    grid-template-columns: 33% 33% 33%;
+    &-item1 {
+      border-right: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
+    &-item2 {
+      border-right: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
+    &-item4 {
+      border-right: 1px solid grey;
+      border-bottom: none;
+    }
+
+    &-item5 {
+      border-right: 1px solid grey;
+      border-bottom: none;
+    }
+    &-item6 {
+      border-bottom: none;
+    }
+  }
+}
